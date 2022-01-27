@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/anaSayfa">
+
+    <fragment
+        android:id="@+id/anaSayfa"
+        android:name="com.cotyoragames.sigarayibirak.AnaSayfa"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" />
+    <fragment
+        android:id="@+id/saglik"
+        android:name="com.cotyoragames.sigarayibirak.Saglik"
+        android:label="fragment_saglik"
+        tools:layout="@layout/fragment_saglik" />
+    <fragment
+        android:id="@+id/ayarlar"
+        android:name="com.cotyoragames.sigarayibirak.Ayarlar"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
+</navigation>

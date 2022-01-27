@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Google Play game services IDs. Save this file as res/values/games-ids.xml in your project.-->
+<resources>
+    <!--app_id-->
+    <!--package_name-->
+    <string name="package_name" translatable="false">com.cotyoragames.sigarayibirak</string>
+    <!--achievement You Did It-->
+    <string name="achievement_you_did_it" translatable="false">CgkI1f_Ng7ILEAIQAQ</string>
+</resources>

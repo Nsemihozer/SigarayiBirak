@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#FF8B00</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MySpinnerDatePickerStyle" parent="android:Widget.DatePicker">
+        <item name="android:datePickerStyle">@style/MySpinnerDatePicker</item>
+    </style>
+    <style name="MyToolbarTheme"
+        parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+</resources>
